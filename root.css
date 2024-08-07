@@ -1,0 +1,56 @@
+:root {
+	--bg-main: #131517;
+	--bg-surface: #1C1F22;
+	--bg-hover: #25292D;
+
+	--scrollbar-bg: #25292d30;
+	--scrollbar-shadow: #0c050540;
+
+	--color-guide: #25292d80;
+	--color-guide-indent: #25292d95;
+
+	--color-accent: #BCFF57;
+	--color-accent-hover: #93F500;
+	--color-accent-lighten: #CEFF85;
+	--color-accent-opacity: #bcff5750;
+	--color-accent-selection: #bcff5740;
+
+	--colot-text: #EEE5E9;
+	--colot-text-darken: #eee5e9c9;
+	--color-text-opacity: #eee5e950;
+	--color-text-opacity-04: #eee5e940;
+	--color-text-opacity-03: #eee5e930;
+	--color-text-opacity-02: #eee5e920;
+
+	--color-info: #0F89E6;
+	--color-info-hover: #279AF1;
+
+	--color-success: var(--color-accent);
+	--color-success-hover: var(--color-accent-hover);
+
+	--color-warning: #FFC31F;
+	--color-warning-hover: #FFBC0A;
+
+	--color-danger: #F74E3B;
+	--color-danger-hover: #F87060;
+
+	--color-git-added: var(--color-accent-lighten);
+	--color-git-conflicting: var(--color-warning);
+	--color-git-deleted: var(--color-danger);
+	--color-git-stage-deleted: var(--color-danger-hover);
+	--color-git-ignored: var(--color-text-opacity-04);
+	--color-git-modified: #f0d795;
+	--color-git-stage-modified: #f0d795bb;
+	--color-git-submodule: #A682FF;
+	--color-git-untracked: var(--colot-text-darken);
+
+	--color-syntax-foreground: var(--colot-text-darken);
+	--color-syntax-vars-props: #ff8273;
+	--color-syntax-keywords: #bd7cff;
+	--color-syntax-numbers: #cdcdcd;
+	--color-syntax-class-const: var(--color-git-modified);
+	--color-syntax-funcs-methods: #5ebaff;
+	--color-syntax-strings: #ceff85c5;
+	--color-syntax-operators: var(--color-info-hover);
+	--color-syntax-comments: #eee5e940;
+}

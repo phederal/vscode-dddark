@@ -1,0 +1,39 @@
+{
+  "name": "dddark",
+  "displayName": "DDDARK Theme",
+  "version": "0.1.0",
+  "description": "dddark... daily theme",
+  "publisher": "phederal",
+  "icon": "icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/phederal/vscode-dddark"
+  },
+  "keywords": [
+    "theme",
+    "dark theme",
+    "dddark",
+    "ddddark",
+    "dark",
+    "black",
+    "night",
+    "black theme",
+    "night theme",
+    "phederal"
+  ],
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "DDDARK",
+        "uiTheme": "vs-dark",
+        "path": "./dddark-color-theme.json"
+      }
+    ]
+  }
+}
