@@ -1,3 +1,3 @@
 # Description
 
-Great theme made in dark green colors. Inspired by the MonkeyType project.
+Great theme made in dark and green-light colors.
