@@ -1,3 +1,2 @@
-# Description
-
-Great theme made in dark and green-light colors.
+![dddark](banner.png)
+![preview](preview.png)
