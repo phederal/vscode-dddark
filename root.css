@@ -51,6 +51,6 @@
 	--color-syntax-class-const: var(--color-git-modified);
 	--color-syntax-funcs-methods: #68beff;
 	--color-syntax-strings: #ceff85c5;
-	--color-syntax-operators: #68beff;
+	--color-syntax-operators: #8af0fb;
 	--color-syntax-comments: var(--color-text-opacity);
 }
