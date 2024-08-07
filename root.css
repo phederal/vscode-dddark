@@ -46,11 +46,11 @@
 
 	--color-syntax-foreground: var(--colot-text-darken);
 	--color-syntax-vars-props: #ff8273;
-	--color-syntax-keywords: #bd7cff;
+	--color-syntax-keywords: #cc9aff;
 	--color-syntax-numbers: #cdcdcd;
 	--color-syntax-class-const: var(--color-git-modified);
-	--color-syntax-funcs-methods: #5ebaff;
+	--color-syntax-funcs-methods: #68beff;
 	--color-syntax-strings: #ceff85c5;
-	--color-syntax-operators: var(--color-info-hover);
-	--color-syntax-comments: #eee5e940;
+	--color-syntax-operators: #68beff;
+	--color-syntax-comments: var(--color-text-opacity);
 }
