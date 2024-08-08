@@ -1874,6 +1874,8 @@
     "list.highlightForeground": "#bcff57",
     "list.focusBackground": "#25292d",
     "list.focusForeground": "#eee5e9",
+    "list.focusAndSelectionOutline": "#eee5e920",
+    "list.focusOutline": "#eee5e920",
     "listFilterWidget.background": "#1c1f22",
     "listFilterWidget.outline": "#00000000",
     "listFilterWidget.noMatchesOutline": "#f74e3b",
