@@ -1,7 +1,7 @@
 {
   "name": "dddark",
   "displayName": "DDDARK",
-  "version": "0.13.0",
+  "version": "0.14.0",
   "description": "dddark... daily theme",
   "publisher": "phederal",
   "icon": "icon.png",
@@ -40,5 +40,10 @@
         "path": "./dddark-darken-color-theme.json"
       }
     ]
+  },
+  "scripts": {
+    "build": "vsce package",
+    "publish:minor": "vsce publish minor",
+    "publish:major": "vsce publish major"
   }
 }
