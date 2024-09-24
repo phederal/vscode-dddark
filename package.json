@@ -33,6 +33,11 @@
         "label": "DDDARK",
         "uiTheme": "vs-dark",
         "path": "./dddark-color-theme.json"
+      },
+      {
+        "label": "DDDARK Darken",
+        "uiTheme": "vs-dark",
+        "path": "./dddark-darken-color-theme.json"
       }
     ]
   }

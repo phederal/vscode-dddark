@@ -259,7 +259,7 @@
       "name": "operator logical",
       "scope": "keyword.operator.logical",
       "settings": {
-        "foreground": "#68beff"
+        "foreground": "#ff8273"
       }
     },
     {
@@ -313,9 +313,16 @@
     },
     {
       "name": "css property-name",
+      "scope": "support.type.property-name.css",
+      "settings": {
+        "foreground": "#FF8273"
+      }
+    },
+    {
+      "name": "css property-name",
       "scope": "support.type.vendored.property-name.css",
       "settings": {
-        "foreground": "#68beff"
+        "foreground": "#FF8273"
       }
     },
     {
@@ -356,7 +363,8 @@
         "keyword.operator.expression.keyof"
       ],
       "settings": {
-        "foreground": "#cc9aff"
+        "foreground": "#cc9aff",
+        "fontStyle": "italic"
       }
     },
     {
@@ -613,7 +621,7 @@
       "name": "Classes",
       "scope": "support.class, entity.name.type.class",
       "settings": {
-        "foreground": "#f0d795"
+        "foreground": "#68beff"
       }
     },
     {
@@ -782,10 +790,29 @@
       }
     },
     {
+      "name": "Open and Close bracket tags",
+      "scope": [
+        "punctuation.definition.typeparameters.begin.ts",
+        "punctuation.definition.typeparameters.end.ts",
+        "punctuation.definition.tag.begin.html",
+        "punctuation.definition.tag.end.html"
+      ],
+      "settings": {
+        "foreground": "#cdcdcd80"
+      }
+    },
+    {
       "name": "Attributes",
       "scope": "entity.other.attribute-name",
       "settings": {
         "foreground": "#cdcdcd"
+      }
+    },
+    {
+      "name": "Attributes HTML",
+      "scope": "entity.other.attribute-name.html",
+      "settings": {
+        "foreground": "#68beff"
       }
     },
     {
@@ -798,10 +825,13 @@
     },
     {
       "name": "Attribute class",
-      "scope": "entity.other.attribute-name.class.css",
+      "scope": [
+        "entity.other.attribute-name.class.css",
+        "entity.other.attribute-name.parent-selector-suffix.css"
+      ],
       "settings": {
         "fontStyle": "normal",
-        "foreground": "#cdcdcd"
+        "foreground": "#86bee4"
       }
     },
     {
@@ -1262,7 +1292,7 @@
       "name": "ts primitive/builtin types",
       "scope": "support.type.primitive.ts,support.type.builtin.ts,support.type.primitive.tsx,support.type.builtin.tsx",
       "settings": {
-        "foreground": "#f0d795"
+        "foreground": "#68beff"
       }
     },
     {
