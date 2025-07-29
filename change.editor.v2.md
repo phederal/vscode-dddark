@@ -17,6 +17,7 @@
 
 #1c1f22 -> #161719bb <!-- hover -->
 #25292d80 -> #ffffff10
+#ffffff20 <!-- hover for #ffffff10 -->
 
 # selection bg
 
