@@ -619,7 +619,7 @@
     },
     {
       "name": "Classes",
-      "scope": "support.class, entity.name.type.class, source.ts",
+      "scope": "support.class, entity.name.type.class",
       "settings": {
         "foreground": "#5bcf8c"
       }
@@ -1864,13 +1864,13 @@
         "foreground": "#68beff"
       }
     },
-    {
-      "name": "js/ts italic",
-      "scope": "entity.other.attribute-name.js,entity.other.attribute-name.ts,entity.other.attribute-name.jsx,entity.other.attribute-name.tsx,variable.parameter,variable.language.super",
-      "settings": {
-        "fontStyle": "italic"
-      }
-    },
+    // {
+    //   "name": "js/ts italic",
+    //   "scope": "entity.other.attribute-name.js,entity.other.attribute-name.ts,entity.other.attribute-name.jsx,entity.other.attribute-name.tsx,variable.parameter,variable.language.super",
+    //   "settings": {
+    //     "fontStyle": "italic"
+    //   }
+    // },
     {
       "name": "comment",
       "scope": "comment.line.double-slash,comment.block.documentation",
